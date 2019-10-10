@@ -9,8 +9,6 @@ const getRandomNumber = () => {
     const getThrow = Math.round(Math.random() * 2);
     return computerThrow(getThrow);
 };
-console.log(getRandomNumber()); 
-
 
 // console.log(computerThrow());
 
