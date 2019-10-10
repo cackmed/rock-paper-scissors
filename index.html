@@ -8,18 +8,22 @@
     <link rel="stylesheet" href="style.css">
     <title>Rock,Paper, and Scissors!</title>
 </head>
-<body>
-<section class="game">
-<div class="score">
+<body class="background">
+<section class="game-score">
+
+    <div class="score">
     <div class="user-vic">
         <h2>Player Victories:<span id="victories"></span></h2>
     </div>
     <div class="computer-vic">
         <h2>Computer Victories:<span id="defeat"></span></h2>
+    </div>    
     <div class="ties">
         <h2>Ties:<span id="draws"></span></h2>
     </div>
 </div>
+</section>
+<section class="game-rules">
 <h1>Rock Paper Scissors!</h1>
 <p>Rules:</p>
 <ul>
@@ -31,6 +35,7 @@
     <li>Good Luck!</li>
 
 </ul>
+</section>
     <section class="throws">
         <label>
             Rock
@@ -48,21 +53,10 @@
             <img class="radio-image" src="./images/scissors.png">
         </label>
      </section>
-        <button id="my-button">Play!</button>
-        <span id="match-result"></span>
-
-
- 
-
-
-
-
-
-
-
-
-
- </section>
+        <section class="button-result">
+        <button id="my-button" class="button">Play!</button> <br >
+        <p>Your Match Result:<span id="match-result"></span></p>
+       </section>
 <script type="module" src="get-random-throw.js"></script>
 <script type="module" src="app.js"></script>
 </body>

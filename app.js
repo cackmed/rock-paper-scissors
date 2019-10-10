@@ -43,7 +43,7 @@ playButton.addEventListener('click', () => {
     }
     else if (result === 'Tie') {
         drawsObtained++;
-        matchResult.textContent = ('A draw is our fate');
+        matchResult.textContent = ('A draw is your fate');
     }
     updateSpans();
 });
