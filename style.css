@@ -1,0 +1,30 @@
+.background {
+    background-color: dimgrey;
+
+}
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-style: groove; 
+}
+.game-rules {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.throws {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-style: groove; 
+}
+.button-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button {
+    height: 40px;
+    width: 200px;
+}
